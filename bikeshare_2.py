@@ -40,7 +40,7 @@ def get_filters():
             month = month_name.lower()
         else:
          
-            print("Please try again.\n")
+            print("Try again.\n")
 
    
     day_name = ''
@@ -51,7 +51,7 @@ def get_filters():
             day = day_name.lower()
         else:
             #We were not able to get the name of the month to analyze data so we continue the loop.
-            print("Please try again.\n")
+            print("Try again.\n")
 
     print('-'*40)
     return city, month, day
